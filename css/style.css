@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100%;
+  float: none;
+}
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.title {
+  margin: 10% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.adv {
+  margin-top: -8%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+h1 {
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+  font-family: cursive;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+}
+h2 span {
+  color: rgb(255, 0, 0);
+}
+.logof2 img {
+  width: 150px;
+  height: 150px;
+  border: solid 3px rgb(0, 0, 0);
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+h4 {
+  margin-top: 20px;
+  color: #ff0000;
+  text-align: center;
+}
+h4 span {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+}
+h5 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+  background-color: rgb(163, 88, 88);
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255);
+  padding: 3px;
+}
+h5:hover {
+  font-size: 1.5rem;
+}
+.header h4 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.d1,
+.d2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.ads {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 0px) and (max-width: 342px) {
+  .title {
+    display: block;
+  }
+  .title h2 {
+    margin-left: 40px;
+  }
+  .d1,
+  .d2 {
+    margin: 10px;
+  }
+}
+ul.dropdown-menu.show {
+  background-color: #f7f7f7;
+}
